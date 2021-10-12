@@ -6,7 +6,7 @@
 - Descargar el repositorio
 - `npm install`
 - `npm start`
-- Abrir un navegador en la página [http://localhost:8080]
+- Abrir un navegador en la página (http://localhost:8080)
 
 ## Usar sin descargar:
 - Abrir 
@@ -21,4 +21,4 @@ de nave hasta llegar a la pista de escape donde te espera la salvación.
 - Espacio para saltar
 
 
-#### Construido con (PhaserJS)[https://github.com/photonstorm/phaser]
+#### Construido con [PhaserJS](https://github.com/photonstorm/phaser)
