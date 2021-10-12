@@ -20,5 +20,7 @@ de nave hasta llegar a la pista de escape donde te espera la salvación.
 - Cursores del teclado
 - Espacio para saltar
 
+#### Equipo: David Santiago Cortés
 
-#### Construido con [PhaserJS](https://github.com/photonstorm/phaser)
+
+##### Construido con [PhaserJS](https://github.com/photonstorm/phaser)
