@@ -8,7 +8,7 @@ import Level2 from './scenes/level02';
 import WinScene from './scenes/WinScene';
 
 const config = {
-    type: Phaser.AUTO,
+    type: Phaser.WEBGL,
     width: 600,
     height: 320,
     physics: {
@@ -19,7 +19,7 @@ const config = {
     },
     scene: [Scene1, Level2, ParallaxScene, UI, GameOver, WinScene],
     scale: {
-        zoom: 1.5
+        zoom: 2
     }
 };
 

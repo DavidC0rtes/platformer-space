@@ -114,6 +114,14 @@ export default class PlayerController
 		{
 			this.stateMachine.setState('run')
 		}
+		else if (this.cursors.up.isDown)
+		{
+			this.scene.cameras.main.pan(this.sprite.x, this.sprite.y - 20, 2000, 'Back')
+		}
+		else if (this.cursors.down.isDown)
+		{
+			this.scene.cameras.main.pan(this.sprite.x, this.sprite.y + 20, 2000, 'Back')
+		}
 
 		const spaceJustPressed = Phaser.Input.Keyboard.JustDown(this.cursors.space)
 		if (spaceJustPressed)

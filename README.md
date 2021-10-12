@@ -6,10 +6,10 @@
 - Descargar el repositorio
 - `npm install`
 - `npm start`
-- Abrir un navegador en la página (http://localhost:8080)
+- Abrir un navegador en la página http://localhost:8080
 
 ## Usar sin descargar:
-- Abrir 
+- Abrir https://davidc0rtes.github.io/platformer-space/ 
 
 ## Instrucciones
 Eres un astronauta cuya nave ha sido destruida por completo
@@ -22,5 +22,7 @@ de nave hasta llegar a la pista de escape donde te espera la salvación.
 
 #### Equipo: David Santiago Cortés
 
+#### Construido con [PhaserJS](https://github.com/photonstorm/phaser)
 
-##### Construido con [PhaserJS](https://github.com/photonstorm/phaser)
+#### Equipo
+- David Santiago Cortés

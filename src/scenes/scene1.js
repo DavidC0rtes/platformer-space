@@ -200,6 +200,7 @@ export default class Scene1 extends Phaser.Scene
             frameRate: 9,
             frames: this.anims.generateFrameNames('coin-pick'),
         })
+        
     }
 
     addParticles()

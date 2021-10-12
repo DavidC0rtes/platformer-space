@@ -34,6 +34,7 @@ export default class ParallaxScene extends Phaser.Scene
 		this.load.image('planet', 'src/assets/img/layers/parallax-space-big-planet.png')
 		
 		this.cursors = this.input.keyboard.createCursorKeys()
+		
 	}
 
 	create()
