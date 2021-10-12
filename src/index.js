@@ -8,7 +8,7 @@ import Level2 from './scenes/level02';
 import WinScene from './scenes/WinScene';
 
 const config = {
-    type: Phaser.AUTO,
+    type: Phaser.WEBGL,
     width: 600,
     height: 320,
     physics: {
