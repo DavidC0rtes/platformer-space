@@ -19,7 +19,7 @@ const config = {
     },
     scene: [Scene1, Level2, ParallaxScene, UI, GameOver, WinScene],
     scale: {
-        zoom: 1.5
+        zoom: 2
     }
 };
 

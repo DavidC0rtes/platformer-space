@@ -46,6 +46,10 @@ export default class Level2 extends Phaser.Scene
             { frameWidth: 96, frameHeight: 96 }
         )
 
+        this.load.spritesheet('coin', 'src/assets/img/coin_anim_strip_6.png',
+            { frameWidth: 8, frameHeight: 8}
+        )
+
 		this.load.atlas('flares', 'src/assets/particles/flares.png',
             'src/assets/particles/flares.json'
         )
@@ -53,6 +57,7 @@ export default class Level2 extends Phaser.Scene
         this.load.audio('ambient', 'src/assets/sfx/sound.wav')
         this.load.audio('losing', 'src/assets/sfx/losing.wav')
         this.load.audio('win', 'src/assets/sfx/win.wav')
+        this.load.audio('coin', 'src/assets/sfx/coin.wav')
 	}
 
 	create()
@@ -183,6 +188,17 @@ export default class Level2 extends Phaser.Scene
     addParticles()
     {
         this.flareParticles = this.add.particles('flares')
+
+        this.coinEmitter = this.flareParticles.createEmitter({
+            frame: [ 'blue' ],
+            speed: 100,
+            lifespan: 500,
+            blendMode: 'SCREEN',
+            scaleX: 0.7,
+            scaleY: 0.7,
+            scale: {start: 0.1, end: 0.1},
+            on: false,
+        })
     }
 
     addSFX()
@@ -198,6 +214,10 @@ export default class Level2 extends Phaser.Scene
 
         this.winSound = this.sound.add('win', {
             volume: 0.7
+        })
+
+        this.coinSound = this.sound.add('coin', {
+            volume: 0.3
         })
 
 
