@@ -9,7 +9,7 @@
 - Abrir un navegador en la página (http://localhost:8080)
 
 ## Usar sin descargar:
-- Abrir 
+- Abrir https://davidc0rtes.github.io/platformer-space/ 
 
 ## Instrucciones
 Eres un astronauta cuya nave ha sido destruida por completo
