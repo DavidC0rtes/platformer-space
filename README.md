@@ -22,3 +22,6 @@ de nave hasta llegar a la pista de escape donde te espera la salvación.
 
 
 #### Construido con [PhaserJS](https://github.com/photonstorm/phaser)
+
+#### Equipo
+- David Santiago Cortés
